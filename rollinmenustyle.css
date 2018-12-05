@@ -1,0 +1,32 @@
+.mainmenu {
+    width: 150px;
+    height: 30px;
+    background-color: darkblue;
+    text-align: center;
+    overflow: hidden;
+}
+.mainmenu:hover {
+    height: auto;
+}
+.topitem1 {
+    height: 0;
+    overflow: hidden;
+}
+.mainmenu:hover .topitem1 {
+    height: 30px;
+}
+.mainmenu:hover .topitem {
+    height: 0;
+    overflow: hidden;
+}
+.item {
+    height: 30px;
+    border-bottom: 1px solid white;
+    line-height: 30px;
+}
+.top {
+    color: white;
+}
+.mainmenu:hover .top {
+    font-weight: bold;
+}
